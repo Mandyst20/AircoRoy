@@ -1,0 +1,62 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f4f4;
+  color: #1C2F5D;
+}
+header.hero {
+  text-align: center;
+  background: #1C2F5D;
+  color: white;
+  padding: 3rem 1rem;
+}
+.logo {
+  height: 80px;
+  margin-bottom: 1rem;
+}
+.cta {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.75rem 1.5rem;
+  background: #F5C044;
+  color: #1C2F5D;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+}
+.diensten, .reviews, .contact {
+  padding: 2rem 1rem;
+  max-width: 1000px;
+  margin: auto;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.card {
+  background: white;
+  border-radius: 10px;
+  padding: 1.5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  flex: 1 1 calc(33% - 1rem);
+}
+form {
+  display: grid;
+  gap: 1rem;
+}
+input, textarea {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background: #1C2F5D;
+  color: white;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
